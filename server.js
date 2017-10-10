@@ -63,7 +63,7 @@ if (mongoURL == null && process.env.DATABASE_SERVICE_NAME) {
 
 
 console.log("mmmongo "+mongoURL);
-mongoURL="mongodb://localhost/test";
+//mongoURL="mongodb://localhost/test";
 var db = null,
     dbDetails = new Object();
 
